@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+
+	<item type="id" name="gd_action_bar_refresh" />
+	<item type="id" name="gd_action_bar_export" />
+	<item type="id" name="gd_action_bar_locate" />
+	<item type="id" name="gd_action_bar_view_info" />
+	
+	<!-- Strings -->
+	<string name="gd_first_screen">First screen</string>
+	<string name="gd_refresh_pressed">You\'ve just pressed a ActionBarItem.Type.Refresh button</string>
+    <string name="gd_custom_drawable">Click on another item instead</string>
+    
+    <string name="gd_image_for_position">Image for position </string>
+
+</resources>

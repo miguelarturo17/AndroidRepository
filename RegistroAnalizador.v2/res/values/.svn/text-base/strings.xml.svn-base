@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Milpo!</string>
+    <string name="app_name">Registro Analizador</string>
+    <string name="title_login">Identifiquese</string>
+    <string name="title_error">Error</string>
+    <string name="title_warning">Informacion</string>
+    <string name="title_restart">Reiniciar</string>
+    <string name="title_success">Exito</string>
+    <string name="title_exit">Salir</string>
+    <string name="title_delete">Eliminar</string>
+	<string name="title_error_login">Contraseña o Usuario incorrectos</string>
+	
+	<string name="title_spinner_litologia">Litologia</string>
+	<string name="title_spinner_cuerpo">Cuerpo</string>
+	<string name="title_spinner_taladro">Taladro</string>
+	<string name="title_spinner_parada">Parada</string>
+	<string name="title_spinner_malla">Malla</string>
+	<string name="title_spinner_usuario">Usuario</string>
+	<string name="title_spinner_zona">Zona</string>
+	<string name="title_spinner_zona">Unidad Minera</string>
+	
+	
+	<string name="label_registro">Registrar nueva lectura:</string>
+	<string name="label_modificacion">Modificar lectura:</string>
+	<string name="label_registro_cu">% Cu</string>
+	<string name="label_registro_ag">% Ag</string>
+	<string name="label_registro_pb">% Pb</string>
+	<string name="label_registro_zn">% Zn</string>
+	<string name="label_registro_fe">% Fe</string>
+	<string name="label_registro_desde">Desde</string>
+	<string name="label_registro_hasta">Hasta</string>
+	<string name="label_registro_peso">Peso(t)</string>
+	<string name="label_registro_fecha">Fecha</string>
+	<string name="label_registro_hora">Hora</string>
+	<string name="label_new">Copiar</string>
+	<string name="label_edit">Modificar</string>
+	<string name="label_delete">Eliminar</string>
+	
+	<string name="error_View">"No se pudo cargar ciertos componentes"</string>
+	<string name="error_registro">"Verifique los parametros de sus lecturas"</string>
+	<string name="error_BD">"No se encontro en la base de datos"</string>
+	<string name="error_conexion_network">"No se pudo conectar la red."</string>
+	<string name="error_conexion_bd">"No se pudo conectar a la base de datos."</string>
+	<string name="error_conexion_server">"No se pudo conectar al servidor."</string>
+	<string name="error_url_vacia">"Http no puede ser vacio."</string>
+	<string name="error_no_lecturas">"No hay lecturas que sincronizar"</string>
+	<string name="error_no_wifi">"Conecte el Wifi manualmente."</string>
+	<string name="error_unmi">"No se encontro unidad minera valida."</string>
+	
+	<string name="error_operacion">"No se pudo completar la operacion..."</string>
+	<string name="error_configuracion">"No se pudo guardar la nueva configuracion..."</string>
+	
+	<string name="label_no_reg">"¿Salir sin guardar?"</string>
+	<string name="label_no_mod">"¿Salir sin modificar?"</string>
+	<string name="label_restart">"Operacion completada.\nSe procedera a reiniciar."</string>
+	<string name="label_procesando">"Cargando. Porfavor espere..."</string>
+	<string name="label_actualizacion">"Se sincronizaran sus lecturas.\nSus datos serán borrados.\n ¿Desea continuar?"</string>
+	<string name="succes_register">"Registrado correctamente"</string>
+	<string name="succes_update">"Modificado correctamente"</string>
+	<string name="succes_delete">"Eliminado correctamente"</string>
+	<string name="succes_sincronizacion">"Operacion realizada correctamente"</string>
+	<string name="succes_register_configuration">Se Registró la Nueva Configuración Correctamente.</string>
+	<string name="exit_dialog">"¿Salir de la Aplicación?"</string>
+	<string name="delete_dialog">"¿Esta seguro que desea eliminar?"</string>
+</resources>

@@ -1,0 +1,22 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    
+          
+    <group android:id="@+id/group">
+    	<item android:id="@+id/menu_item1"
+    		  android:onClick="onGroupItemClick"
+              android:title="@string/menuItem1"
+          	  android:icon="@drawable/ic_menu_principal_registro"/>
+        <item android:id="@+id/menu_item2"
+              android:onClick="onGroupItemClick"
+              android:title="@string/menuItem2"
+              android:icon="@drawable/ic_menu_principal_sinc" />
+        <item android:id="@+id/menu_item3"
+              android:onClick="onGroupItemClick"
+              android:title="@string/menuItem3"
+              android:icon="@drawable/ic_menu_principal_act" />
+        <item android:id="@+id/menu_item4"
+              android:onClick="onGroupItemClick"
+              android:title="@string/menuItem4"
+              android:icon="@drawable/ic_menu_principal_acerca" />
+    </group>
+</menu>

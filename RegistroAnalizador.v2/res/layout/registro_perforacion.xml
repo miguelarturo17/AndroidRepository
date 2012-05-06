@@ -1,0 +1,334 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+		android:orientation="vertical"
+		android:layout_width="fill_parent"
+		android:layout_height="fill_parent">
+				
+	<ScrollView
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content">
+	
+	<TableLayout
+		android:layout_width="fill_parent"
+		android:layout_height="fill_parent"
+		android:stretchColumns="0">
+		
+		<TextView android:id="@+id/registrar_perforacion" 
+				android:layout_width="100px" />
+				
+		<View android:layout_width="fill_parent"
+	      android:layout_height="1dip"
+	      android:background="@drawable/separator_gradient"/>
+		
+		<TableRow 
+			android:layout_width="fill_parent" 
+			android:layout_height="50px" 
+			android:paddingTop="25dip"
+			android:paddingLeft="10px">
+			<TextView 
+				android:text="@string/title_spinner_litologia" 
+				android:layout_width="40px" 
+				android:focusable="true"
+				android:selectAllOnFocus="true"
+				android:layout_gravity="center_vertical"/>
+			<Spinner android:id="@+id/spinnerLito"
+				android:prompt="@string/title_spinner_litologia"
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:layout_marginRight="10px"
+				android:drawSelectorOnTop="true"/>
+		</TableRow>
+		
+		<TableRow 
+			android:layout_width="fill_parent" 
+			android:layout_height="50px" 
+			android:paddingLeft="10px">
+			<TextView 
+				android:text="@string/title_spinner_cuerpo" 
+				android:layout_width="40px" 
+				android:layout_gravity="center_vertical"/>
+			<Spinner android:id="@+id/spinnerGeoCuerpo"
+				android:prompt="@string/title_spinner_cuerpo"
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:layout_marginRight="10px"
+				android:drawSelectorOnTop="true"/>
+		</TableRow>
+		
+			<RadioGroup
+			      android:layout_width="fill_parent"
+			      android:layout_height="wrap_content"
+			      android:orientation="horizontal"
+			      android:gravity="center"
+			      android:paddingRight="2px">
+			      <RadioButton android:id="@+id/radio_1"
+			          android:layout_width="wrap_content"
+			          android:layout_height="wrap_content"
+			          android:text="@string/title_spinner_parada" 
+			          android:checked="true"/>
+			      <RadioButton android:id="@+id/radio_2"
+			          android:layout_width="wrap_content"
+			          android:layout_height="wrap_content"
+			          android:text="@string/title_spinner_malla" 
+			          android:checked="false"/>
+	    	</RadioGroup>
+    	
+    	<TableRow 
+			android:layout_width="fill_parent" 
+			android:layout_height="50px" 
+			android:paddingLeft="10px">
+			<TextView android:id="@+id/textElem_Rec" 
+				android:text="Valor" 
+				android:layout_width="40px" 
+				
+				android:layout_gravity="center_vertical"/>
+			<com.nokeyboard.NEditText android:id="@+id/edit_P_Reconocimiento" 
+				android:numeric="decimal"
+				android:layout_marginRight="10px"
+				android:focusableInTouchMode="false"
+				android:layout_width="fill_parent"/>
+			<ImageView android:id="@+id/Img_P_Reconocimiento" 
+				android:layout_width="15px"
+				android:layout_height="40px"
+				android:layout_marginRight="5px"
+				android:src="@drawable/item_uncheck"
+				android:visibility="invisible"
+				android:layout_gravity="right"/>
+		</TableRow>
+		
+
+		<TableRow 
+			android:layout_width="fill_parent" 
+			android:layout_height="50px" 
+			android:paddingLeft="10px">
+			<TextView 
+				android:text="@string/title_spinner_taladro" 
+				android:layout_width="40px" 
+				android:layout_gravity="center_vertical"/>
+			<com.nokeyboard.NEditText android:id="@+id/edit_P_Taladro" 
+				android:layout_marginRight="10px"
+				android:numeric="decimal"
+				android:focusableInTouchMode="false"
+				android:layout_width="wrap_content"/>
+			<ImageView android:id="@+id/Img_P_Taladro" 
+				android:layout_width="50px"
+				android:layout_height="40px"
+				android:src="@drawable/item_uncheck"
+				android:visibility="invisible"
+				android:layout_gravity="right"/>
+		</TableRow>
+		
+		<TableRow 
+			android:layout_width="fill_parent" 
+			android:layout_height="50px" 
+			android:paddingLeft="10px">
+			<TextView 
+				android:text="@string/label_registro_desde" 
+				android:layout_width="40px" 
+				android:layout_gravity="center_vertical"/>
+			<com.nokeyboard.NEditText android:id="@+id/edit_P_ElemDesde" 
+				android:layout_marginRight="10px"
+				android:numeric="decimal"
+				android:focusableInTouchMode="false"
+				android:layout_width="wrap_content"/>
+			<ImageView android:id="@+id/Img_P_ElemDesde" 
+				android:layout_width="50px"
+				android:layout_height="40px"
+				android:src="@drawable/item_uncheck"
+				android:visibility="invisible"
+				android:layout_gravity="right"/>
+		</TableRow>
+		
+		<TableRow 
+			android:layout_width="fill_parent" 
+			android:layout_height="50px" 
+			android:paddingLeft="10px">
+			<TextView
+				android:text="@string/label_registro_hasta" 
+				android:layout_width="40px" 
+				android:layout_gravity="center_vertical"/>
+			<com.nokeyboard.NEditText android:id="@+id/edit_P_ElemHasta" 
+				android:layout_marginRight="10px"
+				android:numeric="decimal"
+				android:focusableInTouchMode="false"
+				android:layout_width="wrap_content"/>
+			<ImageView android:id="@+id/Img_P_ElemHasta" 
+				android:layout_width="50px"
+				android:layout_height="40px"
+				android:src="@drawable/item_uncheck"
+				android:visibility="invisible"
+				android:layout_gravity="right"/>
+		</TableRow>
+		
+
+		<TableRow 
+			android:layout_width="fill_parent" android:layout_height="50px" 
+			 android:paddingLeft="10px">
+			<TextView 
+				android:text="@string/label_registro_cu" 
+				android:layout_width="40px" 
+				
+				android:layout_gravity="center_vertical"/>
+			<com.nokeyboard.NEditText android:id="@+id/edit_P_ElemCu" 
+				android:layout_marginRight="10px"
+				android:numeric="decimal"
+				android:focusableInTouchMode="false"
+				android:layout_width="wrap_content"/>
+			<ImageView android:id="@+id/Img_P_ElemCu" 
+				android:layout_width="50px"
+				android:layout_height="40px"
+				android:src="@drawable/item_uncheck"
+				android:visibility="invisible"
+				android:layout_gravity="right"/>
+		</TableRow>
+		
+		<TableRow 
+			android:layout_width="fill_parent" android:layout_height="50px" 
+			android:paddingLeft="10px">
+			<TextView 
+				android:text="@string/label_registro_ag" 
+				android:layout_width="40px" 
+				android:layout_gravity="center_vertical"/>
+			<com.nokeyboard.NEditText android:id="@+id/edit_P_ElemAg" 
+				android:layout_marginRight="10px"
+				android:numeric="decimal"
+				android:focusableInTouchMode="false"
+				android:layout_width="wrap_content"/>
+			<ImageView android:id="@+id/Img_P_ElemAg" 
+				android:layout_width="50px"
+				android:layout_height="40px"
+				android:src="@drawable/item_uncheck"
+				android:visibility="invisible"
+				android:layout_gravity="right"/>
+		</TableRow>
+		
+		<TableRow 
+			android:layout_width="fill_parent" android:layout_height="50px" 
+			android:paddingLeft="10px">
+			<TextView 
+				android:text="@string/label_registro_pb" 
+				android:layout_width="40px" 
+				android:layout_gravity="center_vertical"/>
+			<com.nokeyboard.NEditText android:id="@+id/edit_P_ElemPb" 
+				android:layout_marginRight="10px"
+				android:numeric="decimal"
+				android:focusableInTouchMode="false"
+				android:layout_width="wrap_content"/>
+			<ImageView android:id="@+id/Img_P_ElemPb" 
+				android:layout_width="50px"
+				android:layout_height="40px"
+				android:src="@drawable/item_uncheck"
+				android:visibility="invisible"
+				android:layout_gravity="right"/>
+		</TableRow>
+		
+		<TableRow 
+			android:layout_width="fill_parent" android:layout_height="50px" 
+			android:paddingLeft="10px">
+			<TextView
+				android:text="@string/label_registro_zn" 
+				android:layout_width="40px" 
+				android:layout_gravity="center_vertical"/>
+			<com.nokeyboard.NEditText android:id="@+id/edit_P_ElemZn" 
+				android:layout_marginRight="10px"
+				android:numeric="decimal"
+				android:focusableInTouchMode="false"
+				android:layout_width="wrap_content"/>
+			<ImageView android:id="@+id/Img_P_ElemZn" 
+				android:layout_width="50px"
+				android:layout_height="40px"
+				android:src="@drawable/item_uncheck"
+				android:visibility="invisible"
+				android:layout_gravity="right"/>
+		</TableRow>
+		
+		<TableRow 
+			android:layout_width="fill_parent" android:layout_height="50px" 
+			android:paddingLeft="10px">
+			<TextView 
+				android:text="@string/label_registro_fe" 
+				android:layout_width="40px" 
+				android:layout_gravity="center_vertical"/>
+			<com.nokeyboard.NEditText android:id="@+id/edit_P_ElemFe" 
+				android:layout_marginRight="10px"
+				android:numeric="decimal"
+				android:focusableInTouchMode="false"
+				android:layout_width="wrap_content"/>
+			<ImageView android:id="@+id/Img_P_ElemFe" 
+				android:layout_width="50px"
+				android:layout_height="40px"
+				android:src="@drawable/item_uncheck"
+				android:visibility="invisible"
+				android:layout_gravity="right"/>
+		</TableRow>
+		
+		
+		<TableRow 
+			android:layout_width="fill_parent" 
+			android:layout_height="50px" 
+			android:paddingLeft="10px"
+			android:focusable="true">
+			<TextView 
+				android:text="@string/label_registro_fecha" 
+				android:layout_width="50px" 
+				android:layout_gravity="center_vertical"/>
+			<com.nokeyboard.NEditText android:id="@+id/edit_P_Fecha" 
+				android:layout_marginRight="10px"
+				android:focusableInTouchMode="false"
+				android:layout_width="wrap_content"/>
+			<ImageView android:id="@+id/Img_P_Fecha" 
+				android:layout_width="50px"
+				android:layout_height="40px"
+				android:src="@drawable/item_uncheck"
+				android:visibility="invisible"
+				android:layout_gravity="right"/>
+		</TableRow>
+		
+		
+		<TableRow 
+			android:layout_width="fill_parent" 
+			android:layout_height="50px" 
+			android:paddingLeft="10px"
+			android:paddingBottom="15px"
+			android:focusable="true">
+			<TextView 
+				android:text="@string/label_registro_hora" 
+				android:layout_width="50px" 
+				android:layout_gravity="center_vertical"/>
+			<com.nokeyboard.NEditText android:id="@+id/edit_P_Hora" 
+				android:hint="                                    "
+				android:layout_marginRight="10px"
+				android:focusableInTouchMode="false"
+				android:layout_width="wrap_content"/>
+			<ImageView android:id="@+id/Img_P_Hora" 
+				android:layout_width="50px"
+				android:layout_height="40px"
+				android:src="@drawable/item_uncheck"
+				android:visibility="invisible"
+				android:layout_gravity="right"/>
+		</TableRow>
+
+		<RelativeLayout
+			android:layout_width="fill_parent" 
+			android:layout_height="wrap_content"
+			android:gravity="center_horizontal"
+			android:background="#000000"
+			android:padding="6px">
+			<Button android:text="  Grabar   " 
+				android:layout_alignParentTop="true" 
+				android:id="@+id/buttonAceptar" 
+				android:layout_height="wrap_content" 
+				android:layout_width="wrap_content" 
+				android:layout_gravity="center_vertical"/>	
+		</RelativeLayout>
+	
+		<View android:layout_width="fill_parent"
+	      android:layout_height="1dip"
+	      android:background="@drawable/separator_gradient"/>
+		
+	</TableLayout>
+</ScrollView>
+		
+</LinearLayout>
+	

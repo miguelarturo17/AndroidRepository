@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<resources>
+
+    <style name="SeparatorItemView" parent="GreenDroid.SeparatorItemView">
+        <item name="android:background">@drawable/gd_separator_bg</item>
+    </style>
+    
+    <style name="TextAppearanceLarge" parent="@style/TextAppearance.Large">
+        <item name="android:textSize">18sp</item>
+    </style>
+    
+</resources>

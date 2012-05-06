@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+      package="sbs.milpo.view"
+      android:versionCode="1"
+      android:versionName="1.0">
+    <uses-sdk android:minSdkVersion="7" />
+
+<uses-permission android:name="android.permission.INTERNET" />
+<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+
+<uses-permission android:name="android.permission.ACCESS_WIFI_STATE"></uses-permission>
+<uses-permission android:name="android.permission.UPDATE_DEVICE_STATS"></uses-permission>
+<uses-permission android:name="android.permission.CHANGE_WIFI_STATE"></uses-permission>
+<uses-permission android:name="android.permission.WAKE_LOCK"></uses-permission>
+
+
+<uses-sdk android:minSdkVersion="7" />
+
+    <application android:icon="@drawable/icon" 
+    android:label="@string/app_name"
+    android:theme="@style/Theme.GDCatalog"
+    android:name="sbs.milpo.view.CatalogApplication"
+    >
+        <activity android:name=".MilpoLogin"
+                  android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        
+        <activity android:name="sbs.android.info.AboutSimbiosys"/>
+        <activity android:name="sbs.android.info.AboutActivity" />
+        <activity android:name="sbs.android.info.WebContentActivity" />
+        <activity android:name="sbs.milpo.controller.delete" />
+        <activity android:name="sbs.milpo.entity.PadUsuario" />
+        <activity android:name="sbs.milpo.entity.PadLectura" />
+        <activity android:name="sbs.milpo.entity.PadDetalleLectura" />
+        <activity android:name="ListViewGrid" android:configChanges="keyboard|keyboardHidden|orientation"/>
+        <activity android:name="ListUnidadMinera" />
+        <activity android:name="PerforacionClonacion" />
+        <activity android:name="PerforacionRegistro" />
+        <activity android:name="PerforacionModificacion" />
+        <activity android:name="FajaRegistro" />
+        <activity android:name="FajaModificacion" />
+        <activity android:name="sbs.milpo.controller.SincRecepcionController" />
+        <activity android:name="sbs.milpo.controller.SincEnvioController" />
+        <activity android:name="ConfiguracionEdit" />
+        <activity android:name="ConfiguracionView" />
+        <activity android:name="com.android.filechooser.FileChooser" />
+        
+
+    </application>
+</manifest>

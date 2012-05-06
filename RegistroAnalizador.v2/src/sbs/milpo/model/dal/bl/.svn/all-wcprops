@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/sbssources/!svn/ver/4340/trunk/MILPO/REPORTE%20OPERACIONAL/ANDROID/RegistroAnalizador/RegistroAnalizador.v2/src/sbs/milpo/model/dal/bl
+END
+MConfiguracion.java
+K 25
+svn:wc:ra_dav:version-url
+V 155
+/sbssources/!svn/ver/4340/trunk/MILPO/REPORTE%20OPERACIONAL/ANDROID/RegistroAnalizador/RegistroAnalizador.v2/src/sbs/milpo/model/dal/bl/MConfiguracion.java
+END
+MUsuario.java
+K 25
+svn:wc:ra_dav:version-url
+V 149
+/sbssources/!svn/ver/4340/trunk/MILPO/REPORTE%20OPERACIONAL/ANDROID/RegistroAnalizador/RegistroAnalizador.v2/src/sbs/milpo/model/dal/bl/MUsuario.java
+END
+MZona.java
+K 25
+svn:wc:ra_dav:version-url
+V 146
+/sbssources/!svn/ver/4340/trunk/MILPO/REPORTE%20OPERACIONAL/ANDROID/RegistroAnalizador/RegistroAnalizador.v2/src/sbs/milpo/model/dal/bl/MZona.java
+END
+MGeocuerpo.java
+K 25
+svn:wc:ra_dav:version-url
+V 151
+/sbssources/!svn/ver/4340/trunk/MILPO/REPORTE%20OPERACIONAL/ANDROID/RegistroAnalizador/RegistroAnalizador.v2/src/sbs/milpo/model/dal/bl/MGeocuerpo.java
+END
+MElementoUnidad.java
+K 25
+svn:wc:ra_dav:version-url
+V 156
+/sbssources/!svn/ver/4340/trunk/MILPO/REPORTE%20OPERACIONAL/ANDROID/RegistroAnalizador/RegistroAnalizador.v2/src/sbs/milpo/model/dal/bl/MElementoUnidad.java
+END
+MReconocimiento.java
+K 25
+svn:wc:ra_dav:version-url
+V 156
+/sbssources/!svn/ver/4340/trunk/MILPO/REPORTE%20OPERACIONAL/ANDROID/RegistroAnalizador/RegistroAnalizador.v2/src/sbs/milpo/model/dal/bl/MReconocimiento.java
+END
+MGeolitologia.java
+K 25
+svn:wc:ra_dav:version-url
+V 154
+/sbssources/!svn/ver/4340/trunk/MILPO/REPORTE%20OPERACIONAL/ANDROID/RegistroAnalizador/RegistroAnalizador.v2/src/sbs/milpo/model/dal/bl/MGeolitologia.java
+END
+MLectura.java
+K 25
+svn:wc:ra_dav:version-url
+V 149
+/sbssources/!svn/ver/4340/trunk/MILPO/REPORTE%20OPERACIONAL/ANDROID/RegistroAnalizador/RegistroAnalizador.v2/src/sbs/milpo/model/dal/bl/MLectura.java
+END
+MUnidadMinera.java
+K 25
+svn:wc:ra_dav:version-url
+V 154
+/sbssources/!svn/ver/4775/trunk/MILPO/REPORTE%20OPERACIONAL/ANDROID/RegistroAnalizador/RegistroAnalizador.v2/src/sbs/milpo/model/dal/bl/MUnidadMinera.java
+END

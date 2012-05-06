@@ -1,0 +1,83 @@
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/sbssources/!svn/ver/4340/trunk/MILPO/REPORTE%20OPERACIONAL/ANDROID/RegistroAnalizador/RegistroAnalizador.v2/src/sbs/milpo/entity
+END
+GeolitologiaAdapter.java
+K 25
+svn:wc:ra_dav:version-url
+V 154
+/sbssources/!svn/ver/4340/trunk/MILPO/REPORTE%20OPERACIONAL/ANDROID/RegistroAnalizador/RegistroAnalizador.v2/src/sbs/milpo/entity/GeolitologiaAdapter.java
+END
+ElementoQuimicoAdapter.java
+K 25
+svn:wc:ra_dav:version-url
+V 157
+/sbssources/!svn/ver/4340/trunk/MILPO/REPORTE%20OPERACIONAL/ANDROID/RegistroAnalizador/RegistroAnalizador.v2/src/sbs/milpo/entity/ElementoQuimicoAdapter.java
+END
+UnidadMineraAdapter.java
+K 25
+svn:wc:ra_dav:version-url
+V 154
+/sbssources/!svn/ver/4340/trunk/MILPO/REPORTE%20OPERACIONAL/ANDROID/RegistroAnalizador/RegistroAnalizador.v2/src/sbs/milpo/entity/UnidadMineraAdapter.java
+END
+TipoZonaAdapter.java
+K 25
+svn:wc:ra_dav:version-url
+V 150
+/sbssources/!svn/ver/4340/trunk/MILPO/REPORTE%20OPERACIONAL/ANDROID/RegistroAnalizador/RegistroAnalizador.v2/src/sbs/milpo/entity/TipoZonaAdapter.java
+END
+CISincronizacionLecturaAdapter.java
+K 25
+svn:wc:ra_dav:version-url
+V 165
+/sbssources/!svn/ver/4340/trunk/MILPO/REPORTE%20OPERACIONAL/ANDROID/RegistroAnalizador/RegistroAnalizador.v2/src/sbs/milpo/entity/CISincronizacionLecturaAdapter.java
+END
+CITipoReconocimientoAdapter.java
+K 25
+svn:wc:ra_dav:version-url
+V 162
+/sbssources/!svn/ver/4340/trunk/MILPO/REPORTE%20OPERACIONAL/ANDROID/RegistroAnalizador/RegistroAnalizador.v2/src/sbs/milpo/entity/CITipoReconocimientoAdapter.java
+END
+CIDetalleLecturaAdapter.java
+K 25
+svn:wc:ra_dav:version-url
+V 158
+/sbssources/!svn/ver/4340/trunk/MILPO/REPORTE%20OPERACIONAL/ANDROID/RegistroAnalizador/RegistroAnalizador.v2/src/sbs/milpo/entity/CIDetalleLecturaAdapter.java
+END
+ConfiguracionAdapter.java
+K 25
+svn:wc:ra_dav:version-url
+V 155
+/sbssources/!svn/ver/4340/trunk/MILPO/REPORTE%20OPERACIONAL/ANDROID/RegistroAnalizador/RegistroAnalizador.v2/src/sbs/milpo/entity/ConfiguracionAdapter.java
+END
+UsuarioAdapter.java
+K 25
+svn:wc:ra_dav:version-url
+V 149
+/sbssources/!svn/ver/4340/trunk/MILPO/REPORTE%20OPERACIONAL/ANDROID/RegistroAnalizador/RegistroAnalizador.v2/src/sbs/milpo/entity/UsuarioAdapter.java
+END
+ZonaAdapter.java
+K 25
+svn:wc:ra_dav:version-url
+V 146
+/sbssources/!svn/ver/4340/trunk/MILPO/REPORTE%20OPERACIONAL/ANDROID/RegistroAnalizador/RegistroAnalizador.v2/src/sbs/milpo/entity/ZonaAdapter.java
+END
+GeoCuerpoAdapter.java
+K 25
+svn:wc:ra_dav:version-url
+V 151
+/sbssources/!svn/ver/4340/trunk/MILPO/REPORTE%20OPERACIONAL/ANDROID/RegistroAnalizador/RegistroAnalizador.v2/src/sbs/milpo/entity/GeoCuerpoAdapter.java
+END
+CIElementoUnidadAdapter.java
+K 25
+svn:wc:ra_dav:version-url
+V 158
+/sbssources/!svn/ver/4340/trunk/MILPO/REPORTE%20OPERACIONAL/ANDROID/RegistroAnalizador/RegistroAnalizador.v2/src/sbs/milpo/entity/CIElementoUnidadAdapter.java
+END
+CILecturaAdapter.java
+K 25
+svn:wc:ra_dav:version-url
+V 151
+/sbssources/!svn/ver/4340/trunk/MILPO/REPORTE%20OPERACIONAL/ANDROID/RegistroAnalizador/RegistroAnalizador.v2/src/sbs/milpo/entity/CILecturaAdapter.java
+END

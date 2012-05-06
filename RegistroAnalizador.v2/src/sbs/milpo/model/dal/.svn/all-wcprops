@@ -1,0 +1,77 @@
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/sbssources/!svn/ver/4340/trunk/MILPO/REPORTE%20OPERACIONAL/ANDROID/RegistroAnalizador/RegistroAnalizador.v2/src/sbs/milpo/model/dal
+END
+ElementoQuimico.java
+K 25
+svn:wc:ra_dav:version-url
+V 153
+/sbssources/!svn/ver/4340/trunk/MILPO/REPORTE%20OPERACIONAL/ANDROID/RegistroAnalizador/RegistroAnalizador.v2/src/sbs/milpo/model/dal/ElementoQuimico.java
+END
+Lectura.java
+K 25
+svn:wc:ra_dav:version-url
+V 145
+/sbssources/!svn/ver/4340/trunk/MILPO/REPORTE%20OPERACIONAL/ANDROID/RegistroAnalizador/RegistroAnalizador.v2/src/sbs/milpo/model/dal/Lectura.java
+END
+UnidadMinera.java
+K 25
+svn:wc:ra_dav:version-url
+V 150
+/sbssources/!svn/ver/4340/trunk/MILPO/REPORTE%20OPERACIONAL/ANDROID/RegistroAnalizador/RegistroAnalizador.v2/src/sbs/milpo/model/dal/UnidadMinera.java
+END
+TipoZona.java
+K 25
+svn:wc:ra_dav:version-url
+V 146
+/sbssources/!svn/ver/4340/trunk/MILPO/REPORTE%20OPERACIONAL/ANDROID/RegistroAnalizador/RegistroAnalizador.v2/src/sbs/milpo/model/dal/TipoZona.java
+END
+Configuracion.java
+K 25
+svn:wc:ra_dav:version-url
+V 151
+/sbssources/!svn/ver/4340/trunk/MILPO/REPORTE%20OPERACIONAL/ANDROID/RegistroAnalizador/RegistroAnalizador.v2/src/sbs/milpo/model/dal/Configuracion.java
+END
+Usuario.java
+K 25
+svn:wc:ra_dav:version-url
+V 145
+/sbssources/!svn/ver/4340/trunk/MILPO/REPORTE%20OPERACIONAL/ANDROID/RegistroAnalizador/RegistroAnalizador.v2/src/sbs/milpo/model/dal/Usuario.java
+END
+Zona.java
+K 25
+svn:wc:ra_dav:version-url
+V 142
+/sbssources/!svn/ver/4340/trunk/MILPO/REPORTE%20OPERACIONAL/ANDROID/RegistroAnalizador/RegistroAnalizador.v2/src/sbs/milpo/model/dal/Zona.java
+END
+GeoCuerpo.java
+K 25
+svn:wc:ra_dav:version-url
+V 147
+/sbssources/!svn/ver/4340/trunk/MILPO/REPORTE%20OPERACIONAL/ANDROID/RegistroAnalizador/RegistroAnalizador.v2/src/sbs/milpo/model/dal/GeoCuerpo.java
+END
+TipoReconocimiento.java
+K 25
+svn:wc:ra_dav:version-url
+V 156
+/sbssources/!svn/ver/4340/trunk/MILPO/REPORTE%20OPERACIONAL/ANDROID/RegistroAnalizador/RegistroAnalizador.v2/src/sbs/milpo/model/dal/TipoReconocimiento.java
+END
+DetalleLectura.java
+K 25
+svn:wc:ra_dav:version-url
+V 152
+/sbssources/!svn/ver/4340/trunk/MILPO/REPORTE%20OPERACIONAL/ANDROID/RegistroAnalizador/RegistroAnalizador.v2/src/sbs/milpo/model/dal/DetalleLectura.java
+END
+ElementoUnidad.java
+K 25
+svn:wc:ra_dav:version-url
+V 152
+/sbssources/!svn/ver/4340/trunk/MILPO/REPORTE%20OPERACIONAL/ANDROID/RegistroAnalizador/RegistroAnalizador.v2/src/sbs/milpo/model/dal/ElementoUnidad.java
+END
+Geolitologia.java
+K 25
+svn:wc:ra_dav:version-url
+V 150
+/sbssources/!svn/ver/4340/trunk/MILPO/REPORTE%20OPERACIONAL/ANDROID/RegistroAnalizador/RegistroAnalizador.v2/src/sbs/milpo/model/dal/Geolitologia.java
+END

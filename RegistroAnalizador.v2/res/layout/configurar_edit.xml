@@ -1,0 +1,142 @@
+<merge xmlns:android="http://schemas.android.com/apk/res/android">
+
+	<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+				android:layout_width="wrap_content" 
+				android:layout_height="fill_parent"
+				android:background="@drawable/background_gradient">
+				
+			<LinearLayout 
+			  android:layout_width="fill_parent"
+			  android:layout_height="wrap_content"
+			  android:orientation="vertical"
+			  android:paddingLeft="5px" 
+			  android:paddingRight="10px" >
+			
+				<TextView 
+					android:layout_width="wrap_content" 
+					android:layout_height="wrap_content" 
+					android:text="Ingrese la configuracion deseada:" 
+					android:textStyle="italic" />
+					<View android:layout_width="fill_parent"
+				      android:layout_height="1dip"
+				      android:background="@drawable/separator_gradient"/>
+					
+					<LinearLayout 
+						android:layout_width="fill_parent"
+				  		android:layout_height="fill_parent" 
+				  		android:orientation="horizontal"
+				  		android:paddingTop="25dip">
+				  		<TextView android:layout_width="wrap_content" 
+							android:layout_height="wrap_content" 
+							android:text="http://  " 
+							android:textStyle="italic" />
+						
+						<EditText android:id="@+id/TxtURL"
+								android:layout_height="wrap_content" 
+								android:layout_width="fill_parent"
+								android:layout_marginRight="10px"
+								android:inputType="none"/>
+					</LinearLayout>	
+					
+					<LinearLayout 
+						android:layout_width="fill_parent"
+				  		android:layout_height="fill_parent" 
+				  		android:orientation="horizontal"
+				  		android:paddingTop="20px">
+				  		<TextView android:layout_width="wrap_content" 
+								android:layout_height="wrap_content" 
+								android:text="Proxy:  " 
+								android:textStyle="italic" />
+							
+						<EditText android:id="@+id/TxtPROXY"
+								android:layout_height="wrap_content" 
+								android:layout_width="fill_parent"
+								android:layout_marginRight="10px"
+								android:inputType="none"/>
+					</LinearLayout>				
+					
+
+					<LinearLayout 
+						android:layout_width="fill_parent"
+				  		android:layout_height="fill_parent" 
+				  		android:orientation="horizontal"
+				  		android:paddingTop="20px">
+				  		<TextView android:layout_width="wrap_content" 
+								android:layout_height="wrap_content" 
+								android:text="Puerto:  " 
+								android:textStyle="italic" />			
+						<EditText android:id="@+id/TxtPUERTO"
+								android:layout_height="wrap_content" 
+								android:layout_width="fill_parent"
+								android:layout_marginRight="10px"
+								android:inputType="none"/>
+					</LinearLayout>		
+					
+					<LinearLayout 
+						android:layout_width="fill_parent"
+				  		android:layout_height="fill_parent" 
+				  		android:orientation="horizontal"
+				  		android:paddingTop="20px"
+				  		android:visibility="gone">
+				  		<TextView android:layout_width="wrap_content" 
+								android:layout_height="wrap_content" 
+								android:text="Directorio:  " 
+								android:textStyle="italic" 
+								android:textColor="#BDBDBD"/>			
+						<TextView android:id="@+id/TxtDIR"
+								android:layout_height="wrap_content" 
+								android:layout_width="fill_parent"
+								android:layout_marginRight="10px"
+								android:textSize="16px"
+								android:gravity="center"
+								android:background="@drawable/bg_text_view"
+								android:textColor="#0A1B2A"/>
+					</LinearLayout>		
+					
+					<LinearLayout 
+						android:layout_width="fill_parent"
+				  		android:layout_height="fill_parent" 
+				  		android:orientation="horizontal"
+				  		android:paddingTop="20px">
+				  		<TextView android:layout_width="wrap_content" 
+								android:layout_height="wrap_content" 
+								android:text="Unidad Minera:" 
+								android:textStyle="italic" />			
+						<Spinner android:id="@+id/spinnerUnidadMinera"
+							android:layout_width="fill_parent"
+							android:layout_height="wrap_content"
+							android:layout_marginRight="10px"
+							android:drawSelectorOnTop="true"/>
+					</LinearLayout>		
+
+					
+					
+				<LinearLayout 
+					android:layout_width="fill_parent"
+			  		android:layout_height="fill_parent" 
+			  		android:orientation="horizontal"
+			  		android:gravity="right"
+			  		android:paddingTop="25dip">
+			  		<TextView android:id="@+id/LblMensaje1" 
+						android:layout_width="wrap_content" 
+						android:layout_height="wrap_content" 
+						android:layout_gravity="left|center_vertical"
+						android:gravity="center_vertical"
+						android:textStyle="italic" />
+					<Button 
+						android:layout_width="wrap_content" 
+						android:layout_height="wrap_content" 
+						android:id="@+id/BtnGuardarURL" 
+						android:text="Guardar" 
+						android:paddingLeft="20dip" 
+						android:paddingRight="20dip" />
+			
+						
+					
+				</LinearLayout>
+				
+			
+			</LinearLayout>
+		</RelativeLayout>	
+</merge>	
+		

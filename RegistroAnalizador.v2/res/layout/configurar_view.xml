@@ -1,0 +1,138 @@
+<merge xmlns:android="http://schemas.android.com/apk/res/android">
+
+	<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+				android:layout_width="wrap_content" 
+				android:layout_height="fill_parent"
+				android:background="@drawable/background_gradient">
+				
+			<LinearLayout 
+			  android:layout_width="fill_parent"
+			  android:layout_height="wrap_content"
+			  android:orientation="vertical"
+			  android:paddingLeft="5px" 
+			  android:paddingRight="10px" >
+			
+				<TextView 
+					android:paddingTop="10px"
+					android:paddingBottom="15px"
+					android:layout_width="wrap_content" 
+					android:layout_height="wrap_content" 
+					android:text="Configuracion actual:" 
+					android:textStyle="italic" />
+					
+				<View android:id="@+id/divider" 
+			      android:layout_width="fill_parent"
+			      android:layout_height="1dip"
+			      android:background="@drawable/separator_gradient">
+				</View>
+			
+					<LinearLayout 
+						android:layout_width="fill_parent"
+				  		android:layout_height="fill_parent" 
+				  		android:orientation="horizontal"
+				  		android:paddingTop="20px">
+				  		<TextView android:layout_width="wrap_content" 
+							android:layout_height="wrap_content" 
+							android:text="URL:  http://  " 
+							android:textStyle="italic" 
+							android:textColor="#BDBDBD"/>
+						
+						<TextView android:id="@+id/TxtURL"
+								android:layout_height="wrap_content" 
+								android:layout_width="fill_parent"
+								android:layout_marginRight="10px"
+								android:textSize="16px"
+								android:gravity="center"
+								android:background="@drawable/bg_text_view"
+								android:textColor="#0A1B2A"/>
+					</LinearLayout>	
+					
+					<LinearLayout 
+						android:layout_width="fill_parent"
+				  		android:layout_height="fill_parent" 
+				  		android:orientation="horizontal"
+				  		android:paddingTop="20px">
+				  		<TextView android:layout_width="wrap_content" 
+								android:layout_height="wrap_content" 
+								android:text="Proxy:  " 
+								android:textStyle="italic" 
+								android:textColor="#BDBDBD"/>
+							
+						<TextView android:id="@+id/TxtPROXY"
+								android:layout_height="wrap_content" 
+								android:layout_width="fill_parent"
+								android:layout_marginRight="10px"
+								android:textSize="16px"
+								android:gravity="center"
+								android:background="@drawable/bg_text_view"
+								android:textColor="#0A1B2A"/>
+					</LinearLayout>				
+					
+
+					<LinearLayout 
+						android:layout_width="fill_parent"
+				  		android:layout_height="fill_parent" 
+				  		android:orientation="horizontal"
+				  		android:paddingTop="20px">
+				  		<TextView android:layout_width="wrap_content" 
+								android:layout_height="wrap_content" 
+								android:text="Puerto:  " 
+								android:textStyle="italic" 
+								android:textColor="#BDBDBD"/>			
+						<TextView android:id="@+id/TxtPUERTO"
+								android:layout_height="wrap_content" 
+								android:layout_width="fill_parent"
+								android:layout_marginRight="10px"
+								android:textSize="16px"
+								android:gravity="center"
+								android:background="@drawable/bg_text_view"
+								android:textColor="#0A1B2A"/>
+					</LinearLayout>		
+					
+					<LinearLayout 
+						android:layout_width="fill_parent"
+				  		android:layout_height="fill_parent" 
+				  		android:orientation="horizontal"
+				  		android:paddingTop="20px"
+				  		android:visibility="gone">
+				  		<TextView android:layout_width="wrap_content" 
+								android:layout_height="wrap_content" 
+								android:text="Directorio:  " 
+								android:textStyle="italic" 
+								android:textColor="#BDBDBD"/>			
+						<TextView android:id="@+id/TxtDIR"
+								android:layout_height="wrap_content" 
+								android:layout_width="fill_parent"
+								android:layout_marginRight="10px"
+								android:textSize="16px"
+								android:gravity="center"
+								android:background="@drawable/bg_text_view"
+								android:textColor="#0A1B2A"/>
+					</LinearLayout>		
+					
+					<LinearLayout 
+						android:layout_width="fill_parent"
+				  		android:layout_height="fill_parent" 
+				  		android:orientation="horizontal"
+				  		android:paddingTop="20px">
+				  		<TextView android:layout_width="wrap_content" 
+								android:layout_height="wrap_content" 
+								android:text="Unidad Minera:  " 
+								android:textStyle="italic" 
+								android:textColor="#BDBDBD"/>			
+						<TextView android:id="@+id/TxtUNMI"
+								android:layout_height="wrap_content" 
+								android:layout_width="fill_parent"
+								android:layout_marginRight="10px"
+								android:textSize="16px"
+								android:gravity="center"
+								android:background="@drawable/bg_text_view"
+								android:textColor="#0A1B2A"/>
+					</LinearLayout>		
+
+				
+			
+			</LinearLayout>
+		</RelativeLayout>	
+</merge>	
+		

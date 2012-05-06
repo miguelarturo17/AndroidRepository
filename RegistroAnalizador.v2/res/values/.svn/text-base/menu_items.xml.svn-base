@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="menuItem1">Registro</string>
+    <string name="menuItem2">Sincronizacion</string>
+    <string name="menuItem3">Actualizacion</string>
+    <string name="menuItem4">Configuracion </string>
+</resources>

@@ -1,0 +1,71 @@
+<merge xmlns:android="http://schemas.android.com/apk/res/android">
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+				android:layout_width="fill_parent" 
+				android:layout_height="fill_parent"
+				android:layout_centerInParent="true"
+				android:gravity="center_horizontal"
+				android:background="@drawable/background_gradient">
+				
+			<LinearLayout 
+			  android:layout_width="fill_parent"
+			  android:layout_height="wrap_content"
+			  android:orientation="vertical"
+			  android:layout_marginLeft="20px" 
+			  android:layout_marginRight="20px"
+			  android:layout_gravity="center_horizontal" >
+			
+				<TextView 
+					android:layout_width="wrap_content" 
+					android:layout_height="wrap_content" 
+					android:text="Usuario:" 
+					android:textStyle="italic"
+					android:paddingTop="20px" />
+				<Spinner android:id="@+id/spinnerUsuario"
+						android:layout_width="fill_parent"
+						android:layout_height="wrap_content"
+						android:drawSelectorOnTop="true"/>
+				
+				<TextView 
+					android:layout_width="wrap_content" 
+					android:layout_height="wrap_content" 
+					android:text="Contraseña:" 
+					android:textStyle="italic" 
+					android:paddingTop="20px"/>
+					
+				<EditText android:id="@+id/TxtPassword"
+					android:layout_height="wrap_content" 
+					android:layout_width="fill_parent" 
+					android:password="true"
+					/>
+					
+				<LinearLayout 
+					android:layout_width="fill_parent"
+			  		android:layout_height="fill_parent" 
+			  		android:orientation="horizontal"
+			  		android:gravity="right"
+			  		android:paddingTop="50px"
+			  		>
+			  		<TextView android:id="@+id/LblMensaje1" 
+						android:layout_width="wrap_content" 
+						android:layout_height="wrap_content" 
+						android:layout_gravity="left|center_vertical"
+						android:gravity="center_vertical"
+						
+						android:textStyle="italic" />
+					<Button 
+						android:layout_width="wrap_content" 
+						android:layout_height="wrap_content" 
+						android:id="@+id/BtnAceptarLogin" 
+						android:text="Login" 
+						android:paddingLeft="20dip" 
+						android:paddingRight="20dip" />
+			
+						
+					
+				</LinearLayout>
+				
+			</LinearLayout>
+		</RelativeLayout>	
+</merge>	
+		

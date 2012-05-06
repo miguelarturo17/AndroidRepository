@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+	<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	    android:orientation="horizontal"
+	    android:layout_width="fill_parent"
+	    android:layout_height="fill_parent">
+	    
+	        <TextView android:id="@+id/list_grid_item1"
+	            android:text="row_id"
+	            android:layout_height="fill_parent"
+	            android:layout_width="wrap_content"
+	            android:paddingTop="4dip"
+	            android:paddingBottom="5dip"
+	            android:width="50dip"
+	        />
+	        <TextView android:id="@+id/list_grid_item2"
+	            android:text="col_1"
+	            android:layout_height="fill_parent"
+	            android:layout_width="wrap_content"
+	            android:paddingTop="4dip"
+	            android:paddingBottom="5dip"
+	            android:width="150dip"
+	        />
+	        <TextView android:id="@+id/list_grid_item3"
+	            android:text="col_2"
+	            android:layout_height="fill_parent"
+	            android:layout_width="wrap_content"
+	            android:paddingTop="4dip"
+	            android:paddingBottom="5dip"
+	            android:width="60dip"
+	        />
+	        <TextView android:id="@+id/list_grid_item4"
+	            android:layout_height="fill_parent"
+	            android:layout_width="wrap_content"
+	            android:paddingTop="4dip"
+	            android:paddingBottom="5dip"
+	            android:gravity="left"
+	            android:width="60dip"
+	        />
+	        <TextView android:id="@+id/list_grid_item5"
+	            android:layout_height="fill_parent"
+	            android:layout_width="wrap_content"
+	            android:paddingTop="4dip"
+	            android:paddingBottom="5dip"
+	            android:gravity="left"
+	            android:width="60dip"
+	        />
+	        
+	        <TextView android:id="@+id/list_grid_itemFe"
+	            android:layout_height="fill_parent"
+	            android:layout_width="wrap_content"
+	            android:paddingTop="4dip"
+	            android:paddingBottom="5dip"
+	            android:gravity="left"
+	            android:width="60dip"
+	        />
+	        
+	        
+	        <TextView android:id="@+id/list_grid_item6"
+	            android:layout_height="fill_parent"
+	            android:layout_width="wrap_content"
+	            android:paddingTop="4dip"
+	            android:paddingBottom="5dip"
+	            android:gravity="left"
+	            android:width="60dip"
+	        />
+	        <TextView android:id="@+id/list_grid_item7"
+	            android:layout_height="fill_parent"
+	            android:layout_width="wrap_content"
+	            android:paddingTop="4dip"
+	            android:paddingBottom="5dip"
+	            android:gravity="left"
+	            android:width="60dip"
+	        />
+	        <TextView android:id="@+id/list_grid_item8"
+	            android:layout_height="fill_parent"
+	            android:layout_width="wrap_content"
+	            android:paddingTop="4dip"
+	            android:paddingBottom="5dip"
+	            android:gravity="left"
+	            android:width="60dip"
+	        />
+	        
+	        
+	        
+	        <TextView android:id="@+id/list_grid_item20"
+	            android:layout_height="fill_parent"
+	            android:layout_width="wrap_content"
+	            android:paddingTop="4dip"
+	            android:paddingBottom="5dip"
+	            android:gravity="left"
+	            android:width="60dip"
+	        />
+	        
+	        
+	        <TextView android:id="@+id/list_grid_item21"
+	            android:layout_height="fill_parent"
+	            android:layout_width="wrap_content"
+	            android:paddingTop="4dip"
+	            android:paddingBottom="5dip"
+	            android:gravity="left"
+	            android:width="60dip"
+	        />
+	        <TextView android:id="@+id/list_grid_item22"
+	            android:layout_height="fill_parent"
+	            android:layout_width="wrap_content"
+	            android:paddingTop="4dip"
+	            android:paddingBottom="5dip"
+	            android:gravity="left"
+	            android:width="60dip"
+	        />
+	        <TextView android:id="@+id/list_grid_item23"
+	            android:layout_height="fill_parent"
+	            android:layout_width="wrap_content"
+	            android:paddingTop="4dip"
+	            android:paddingBottom="5dip"
+	            android:gravity="left"
+	            android:width="60dip"
+	        />
+	</LinearLayout>
